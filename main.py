@@ -1,24 +1,6 @@
-import requests
-import json
 from pprint import pprint
+from data_manager import DataManager
 
-# OWN_GOOGLE_SHEET_API = 'https://api.sheety.co/6ada9ef7386080ce9ab42b293d2f77d5/flightDeals/prices'
-FAKE_API = 'data.json'
-
-def main():
-    sheet_data = get_sheet_data()
-    pprint(sheet_data)
-
-def get_sheet_data():
-    # response = requests.get(OWN_GOOGLE_SHEET_API)
-    # response.raise_for_status()
-    # flights_data = response.json()
-
-    # print(flights_data)
-
-    file = open('data.json')
-    data = json.load(file)
-    return data
-
-main()
-
+data_manager = DataManager()
+sheet_data = data_manager.get_destination_data()
+pprint(sheet_data)

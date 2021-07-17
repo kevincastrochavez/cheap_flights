@@ -1,13 +1,28 @@
 {
   "prices": [
-    { "city": "Honolulu, Hawaii", "iataCode": "", "lowestPrice": 350, "id": 2 },
-    { "city": "Dublin, Ireland", "iataCode": "", "lowestPrice": 820, "id": 3 },
+    {
+      "city": "Honolulu, Hawaii",
+      "iataCode": "TESTING",
+      "lowestPrice": 350,
+      "id": 2
+    },
+    {
+      "city": "Dublin, Ireland",
+      "iataCode": "TESTING",
+      "lowestPrice": 820,
+      "id": 3
+    },
     {
       "city": "Reikiavic, Iceland",
-      "iataCode": "",
+      "iataCode": "TESTING",
       "lowestPrice": 810,
       "id": 4
     },
-    { "city": "Rome, Italy", "iataCode": "", "lowestPrice": 950, "id": 5 }
+    {
+      "city": "Rome, Italy",
+      "iataCode": "TESTING",
+      "lowestPrice": 950,
+      "id": 5
+    }
   ]
 }
