@@ -6,6 +6,10 @@ from pprint import pprint
 FAKE_API = 'data.json'
 
 def main():
+    sheet_data = get_sheet_data()
+    pprint(sheet_data)
+
+def get_sheet_data():
     # response = requests.get(OWN_GOOGLE_SHEET_API)
     # response.raise_for_status()
     # flights_data = response.json()
@@ -14,7 +18,7 @@ def main():
 
     file = open('data.json')
     data = json.load(file)
-    pprint(data)
+    return data
 
 main()
 
