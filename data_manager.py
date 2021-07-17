@@ -1,6 +1,6 @@
 import requests
 
-# OWN_GOOGLE_SHEET_API = 'https://api.sheety.co/6ada9ef7386080ce9ab42b293d2f77d5/flightDeals/prices'
+OWN_GOOGLE_SHEET_API = 'https://api.sheety.co/6ada9ef7386080ce9ab42b293d2f77d5/flightDeals/prices'
 
 class DataManager:
     def __init__(self):
